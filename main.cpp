@@ -1,14 +1,13 @@
 #include <iostream>
 #include "lib.h"
-usingnamespace std;
 
-int main(){
-  int h;
-    cin>>h;
+int main() {
+    int h;
+    std::cin>>h;
     if (numeroprimo(h)==0){
-        cout<<"numero primo"<< endl;
+        std::cout<<"numero primo"<< std::endl;
     } else{
-        cout<< "numero non primo"<< endl;
+        std::cout<< "numero non primo"<< std::endl;
     }
-  return 0;
+    return 0;
 }
